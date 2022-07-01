@@ -22,10 +22,18 @@ If you want a backup yourself, follow [this amazing tutorial](https://youtu.be/C
 
 __Example use__
 ```
-stow -nvSt ~ * # prints what files will be tracked
-stow -vSt ~ * # links all files that are in the current directory and the target
-stow -vDt ~ * # unlinks all files
- 
-stow --adopt -nvSt ~ * # again shows what files will be adopted at the ~ directory
-stow --adopt -vSt ~ bash # links files found in the bash directory
+# prints what files will be tracked
+stow -nvSt ~ *
+
+# links all files that are in the current directory and the target
+stow -vSt ~ *
+
+# unlinks all files
+stow -vDt ~ *
+
+# again shows what files will be adopted at the ~ directory
+stow --adopt -nvSt ~ *
+
+# links files found in the bash directory
+stow --adopt -vSt ~ bash
 ```
