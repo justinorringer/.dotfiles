@@ -43,3 +43,6 @@ export FZF_ALT_C_COMMAND="fd --type d ."
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -50'"
 
 export FZF_TMUX=1
+
+# byobu
+[ -r /home/jorringe/.byobu/prompt ] && . /home/jorringe/.byobu/prompt   #byobu-prompt#

@@ -1,0 +1,5 @@
+BYOBU_DARK=default
+BYOBU_LIGHT=magenta
+BYOBU_ACCENT=default
+BYOBU_HIGHLIGHT=magenta
+MONOCHROME=
